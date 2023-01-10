@@ -1,0 +1,25 @@
+{
+    "name": "onepey/onepey-api-php",
+    "description" : "1PEY PHP API library",
+    "type":"library",
+    "keywords": [
+      "onepey",
+      "payment processing",
+      "api"
+    ],
+    "license" : "MIT",
+    "authors": [
+      { "name" : "1PEY",
+        "email": "techteam@1pey.com"
+      }
+    ],
+    "require" : {
+        "php" : ">= 5.3.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+     "psr-4": { "OnePEY\\" : "lib/OnePEY" }
+    }
+}
